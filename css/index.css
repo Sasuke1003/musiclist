@@ -1,0 +1,35 @@
+html{user-select:none;font-family:Arial, Helvetica, sans-serif;}
+a:link,a:visited,a:hover,a:active{color:white;text-decoration: none;}
+body{background-color:rgba(2, 0, 2,1);}
+
+.navbar{opacity: 3;position:absolute;width:100%;height:75px;background-color:transparent;left:0;top:0;border-bottom:solid 1px #666;}
+.navbar .logo{position:absolute;left:50px;}
+
+.musicmenu{position:absolute;height:100px;background-color:rgba(20,20,20,1);top:90px;width:250px;bottom:400px;height:auto;border-radius:10px;color:#fff;}
+.option-area{overflow:hidden;}
+.area{height:50px;width:90%;position:absolute;left:10px;font-size:20px; border-radius:10px;display:flex;align-items: center;}
+.musicmenu #chinese{top:80px;}
+.musicmenu #cantonese{top:140px;}
+.musicmenu #korean{top:200px;}
+.musicmenu #japanese{top:260px;}
+.musicmenu #english{top:320px;}
+.musicmenu #others{top:380px;}
+.area span{padding-left:20px;}
+.area:hover{background-color:rgba(60,60,60,1)}
+.option-area-title{height:50px;width:90%;position:absolute;left:10px;border-radius:10px;display:flex;align-items: center;color:#666;top:15px;font-size:30px;}
+.option-area-title h4{padding-left:40px;}
+
+.player{position:absolute;background-color:rgba(20,20,20,1);left:270px;right:800px;top:90px;bottom:400px;width:auto;height:auto;border-radius:10px;color:#fff;background-image:linear-gradient(rgba(94, 80, 245,1),rgba(32, 32, 32, 1));}
+#player{display:none;}
+.player .tips{display:flex;justify-content: center;align-items: center;}
+.player .menu{overflow: auto;background-image:linear-gradient(rgba(94, 80, 245,1),rgba(32, 32, 32, 1));position: absolute;top:0px;bottom:0px;width:auto;font-size: 25px;margin:10px 10px;}
+#chinese-song,#cantonese-song,#korean-song,#japanese-song,#english-song,#others-song{display: none;}
+.player .menu a{color: white;padding: 14px 16px;text-decoration: none;font-size: 17px;display: block;}
+.player .menu a:hover{background-color: #ddd;color: black;}
+.menu table{padding:10px 10px;width:auto;right:0;}
+th{font-size:30px;color:rgba(255,255,255,1);}
+th,td{text-align: center;}
+#singer{width:200px;}
+#song{width:500px;}
+#link{width:150px;}
+.copyright{position:absolute;bottom:0px;right:10px;color:#fff;}
